@@ -1,12 +1,38 @@
 # MakersHnD
-## Hammocks and Drinks! Find the most relaxing spot on earth.
+## Hammocks and Drinks! Find the most relaxing spot in the solar system.
 
- ## To Use
+Makers Academy, Week 5 First Group project
+
+[Video Demo](https://youtu.be/C7B8mkJ1c7Y)
+
+## Summary
+
+This was the first group project at Makers Academy Bootcamp, it was done over the course of 4 days with a team of four people. It was the culmination of our initial learning on ruby, databases and the web. 
+
+The project was developed in an agile manner, using pair programming and a trello board, along with daily stand ups to ensure the work was managed to time. We delivered an MVP in less than two days. 
+
+The features of the app include sign in and sign out, booking, listing and viewing rooms. It was also a lot of the teams first major experience with HTML, CSS so that was a key learning area for many of us.
+
+## Developers
+- Lou Reade (loushark)
+- Sha Cheng (cspoppuppy)
+- Nata Sherchenkova (TataSher)
+- Jack McCarthy (jackmcc08)
+
+## Tech Stack
+- Ruby v.2.6.5
+- Sinatra (with sinatra-contrib and sinatra-flash)
+- PG gem for interacting with a PostgreSQL database
+- bcrypt for password hashing
+- Rspec, Rubocop, SimpleCov, TimeCop, Capybara for testing
+
+
+ ## To Use and Develop Further
 
  ## To use
  1. git clone to your local machine
  2. run bundle install
- 3. Set up both of the below databases following the command below - you will need PostgreSQL
+ 3. Set up both of the below databases following the command below - you will need PostgreSQL installed on your local machine
  4. run rspec and get clean tests to ensure setup correctly
  5. run `rackup -p 5001` to start app
  6. Connect in browser via `localhost:5001`
@@ -23,10 +49,11 @@
  2. Create the database using the psql command `CREATE DATABASE makers_hnd_database_test;`
  3. Tables will create and reset automatically when you run rspec
 
-## Domain Model
+## Resouces
 
-https://docs.google.com/spreadsheets/d/1d0Gz_mINWiapO09sTUBmpzQA9FhS1RZKjNgzkgxkCbs/edit#gid=0
-
+- [Domain Model](https://docs.google.com/spreadsheets/d/1d0Gz_mINWiapO09sTUBmpzQA9FhS1RZKjNgzkgxkCbs/edit#gid=0)
+- [Presentation and Mock-ups](https://docs.google.com/presentation/d/141om6A9GU4Qeqv49u6iHYgRYSz0fcdx2S6L23VR_hcU/edit?usp=sharing)
+<!-- 
 ## Specifications and User Stories
 
 - [ ] Any signed-up user can list a new space.
@@ -112,4 +139,4 @@ I want to be able to book a space hammocks
 
 
 Break down user stories into tickets
-Organise tickets into priority
+Organise tickets into priority -->
